@@ -1,0 +1,12 @@
+{
+  "name": "spite",
+  "description": "SPITE: a clean-room build pipeline for Claude Code.",
+  "owner": {"name": "neitzert", "url": "https://github.com/neitzert"},
+  "plugins": [
+    {
+      "name": "spite",
+      "source": "./",
+      "description": "Clean-room pipeline: Survey, Partition, Isolate, Test, Emit."
+    }
+  ]
+}

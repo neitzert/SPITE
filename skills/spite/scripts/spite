@@ -1,0 +1,5 @@
+#!/bin/sh
+# spite <step> <target> ...   (wrapper around spite.py for macOS, Linux and Git Bash)
+dir="$(cd "$(dirname "$0")" && pwd)"
+if command -v python3 >/dev/null 2>&1; then py=python3; else py=python; fi
+exec "$py" -I "$dir/spite.py" "$@"

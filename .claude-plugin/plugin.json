@@ -1,0 +1,10 @@
+{
+  "name": "spite",
+  "description": "SPITE (Survey, Partition, Isolate, Test, Emit): a clean-room pipeline that takes one software product from public research to an independent open-source release with a provenance trail.",
+  "version": "0.1.0",
+  "author": {"name": "neitzert", "url": "https://github.com/neitzert"},
+  "homepage": "https://github.com/neitzert/SPITE",
+  "repository": "https://github.com/neitzert/SPITE",
+  "license": "Apache-2.0",
+  "keywords": ["clean-room", "provenance", "open-source", "pipeline"]
+}
