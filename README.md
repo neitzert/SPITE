@@ -40,9 +40,11 @@ A repository on your machine, ready for you to publish, containing:
 **As a plugin.** In Claude Code:
 
 ```
-/plugin marketplace add neitzert/SPITE
+/plugin marketplace add https://github.com/neitzert/SPITE.git
 /plugin install spite@spite
 ```
+
+Give the whole address as shown. The short form `neitzert/SPITE` is not accepted everywhere.
 
 The command is then `/spite:spite`.
 
